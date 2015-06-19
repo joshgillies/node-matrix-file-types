@@ -10,7 +10,7 @@ var FILE_MAP = {
   'pdf': 'pdf_file',
   'ppt': 'powerpoint_doc',
   'rtf': 'rtf_file',
-  'txt': 'txt_file',
+  'txt': 'text_file',
   'mp4': 'video_file',
   'doc|dot': 'word_doc',
   'xml': 'xml_file',
