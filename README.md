@@ -2,6 +2,7 @@
 
 Map files via file extention to a Squiz Matrix file assets
 
+[![Build Status](https://travis-ci.org/joshgillies/node-matrix-file-types.svg)](https://travis-ci.org/joshgillies/node-matrix-file-types)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Example

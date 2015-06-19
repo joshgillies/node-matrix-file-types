@@ -1,0 +1,33 @@
+{
+  "name": "node-matrix-file-types",
+  "version": "1.0.0",
+  "description": "Map files via file extention to a Squiz Matrix file assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgillies/node-matrix-file-types.git"
+  },
+  "keywords": [
+    "squiz",
+    "matrix",
+    "mysource",
+    "my",
+    "source",
+    "files",
+    "file",
+    "assets"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/node-matrix-file-types/issues"
+  },
+  "homepage": "https://github.com/joshgillies/node-matrix-file-types#readme",
+  "devDependencies": {
+    "standard": "^4.3.1",
+    "tape": "^4.0.0"
+  }
+}
