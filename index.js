@@ -1,11 +1,11 @@
 var path = require('path')
 
 var FILE_MAP = {
-  'css': 'css_file',
+  'css\b': 'css_file',
   'xls': 'excel_doc',
   'flv': 'flv_file',
   'jpg|jpeg|png|gif': 'image',
-  'js': 'js_file',
+  'js\b': 'js_file',
   'mp3': 'mp3_file',
   'pdf': 'pdf_file',
   'ppt': 'powerpoint_doc',
