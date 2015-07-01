@@ -1,7 +1,7 @@
 var path = require('path')
 
 var FILE_MAP = {
-  'css\b': 'css_file',
+  '\\.css': 'css_file',
   'xls': 'excel_doc',
   'flv': 'flv_file',
   'jpg|jpeg|png|gif': 'image',
