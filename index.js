@@ -5,7 +5,7 @@ var FILE_MAP = {
   'xls': 'excel_doc',
   'flv': 'flv_file',
   'jpg|jpeg|png|gif': 'image',
-  'js\b': 'js_file',
+  'js\\b': 'js_file',
   'mp3': 'mp3_file',
   'pdf': 'pdf_file',
   'ppt': 'powerpoint_doc',
