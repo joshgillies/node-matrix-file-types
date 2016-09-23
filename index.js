@@ -22,7 +22,7 @@ module.exports = function fileAsset (file) {
   var ext = path.extname(file)
 
   for (var i = 0, re, match; i < SEARCH.length; i++) {
-    re = new RegExp(SEARCH[i])
+    re = new RegExp(SEARCH[i], 'i')
     if (re.test(ext)) {
       match = SEARCH[i]
       break

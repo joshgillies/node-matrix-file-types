@@ -3,6 +3,7 @@ var fileAsset = require('./')
 
 test('basic usage', function (assert) {
   assert.equal(fileAsset('image.jpeg'), 'image', 'test .jpeg')
+  assert.equal(fileAsset('image.JPG'), 'image', 'test .JPG')
   assert.equal(fileAsset('file.txt'), 'text_file', 'test .txt')
   assert.equal(fileAsset('script.js'), 'js_file', 'test .js')
   assert.equal(fileAsset('styles.css'), 'css_file', 'test .css')
